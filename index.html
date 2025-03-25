@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IE PROJECT</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="homepage">
+        <h1>IE PROJECT</h1>
+        <div class="equi">
+            <div class="slider-container">
+                <input type="range" class="slider" id="bass" min="-10" max="10" value="0" orient="vertical">
+                <div class="slider-value" id="bass-value">0</div>
+                <label for="bass">Bass</label>
+            </div>
+            <div class="slider-container">
+                <input type="range" class="slider" id="volume" min="0" max="100" value="50" orient="vertical">
+                <div class="slider-value" id="volume-value">50</div>
+                <label for="volume">Volume</label>
+            </div>
+            <div class="slider-container">
+                <input type="range" class="slider" id="treble" min="-10" max="10" value="0" orient="vertical">
+                <div class="slider-value" id="treble-value">0</div>
+                <label for="treble">Treble</label>
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
